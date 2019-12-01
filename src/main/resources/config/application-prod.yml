@@ -1,0 +1,22 @@
+logging:
+  level:
+    ROOT: INFO
+
+management:
+  metrics:
+    export:
+      prometheus:
+        enabled: false
+
+spring:
+  devtools:
+    restart:
+      enabled: false
+    livereload:
+      enabled: false
+
+server:
+  port: 8080
+app:
+  key:
+    base64-secret: MQY0N9B1ZRDyZRUxYzTxMTBmMDE1NzMwOTk4NmVjNTc2ZTFjNDcyMzIyOTFmYjA2YTdmNjNkY2ExMzM4Yzg2MjU2MjhkMTIyZDUyNzgwMGQwOWJhYzNlZTkxYmMxOWFkNWY3OTM1OWI3OGY2ZWRhNGQ0MDgzZTNmZmE0ZjIzMjY=

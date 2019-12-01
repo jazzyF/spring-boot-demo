@@ -1,0 +1,22 @@
+logging:
+  level:
+    ROOT: DEBUG
+spring:
+  profiles:
+    active: dev
+  devtools:
+    restart:
+      enabled: true
+  jackson:
+    serialization:
+      indent-output: true
+  h2:
+    console:
+      enabled: true
+  jpa:
+    show-sql: true
+server:
+  port: 8080
+app:
+  key:
+    base64-secret: YTZ0Q2Y1ZDAyZGUxYzYxMTBmMDE1NzSwOTk7NmVjNTc2ZTFjNDcyMzIyOTFmYjA2YTdmNjNkY2ExMzM4Yzg2MjU2MjhkMTIyZDUyNzgwMGQwOWJhYzNlZTkxYmMxOMFkNWY3OTP1OWI9OGY1BERhNGQ0MDgzZTNmZmE0ZjIzMjY=

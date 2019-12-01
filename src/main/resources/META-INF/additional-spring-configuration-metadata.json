@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "app.key.base64-secret",
+      "type": "java.lang.String",
+      "description": "Description for app.key.base64-secret."
+    }
+  ] }

@@ -1,0 +1,15 @@
+logging:
+  level:
+    dev: DEBUG
+    prod: INFO
+    root: WARN
+    org.springframework.security: ERROR
+  file:
+    path: ./logs
+spring:
+  profiles:
+    active:
+      - dev
+app:
+  key:
+    base64-secret: ZTY0N2Y1ZDAyZGUxYzYxMTBmMDE1NzMwOTk4NmVjNTc2ZTFjNDcyMzIyOTFmYjA2YTdmNjNkY2ExMzM4Yzg2MjU2MjhkMTIyZDUyNzgwMGQwOWJhYzNlZTkxYmMxOWFkNWY3OTM1OWI3OGY2ZWRhNGQ0MDgzZTNmZmE0ZjIzMjY=
